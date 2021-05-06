@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Preferencias Silbe">
+<!ENTITY silbe.DefaultSearchDesc "Habilita la búsqueda por  defecto sin motor de búsqueda &apos;@&apos; operator">
+<!ENTITY silbe.DefaultSearchDescContext "( Desactiva en caso de otra urlbar relacionada addons don&apos;t work)">
+<!ENTITY silbe.DisplayOptions " Opciones de visualización ">
+<!ENTITY silbe.OptDefaultSearchShow " Mostrar la opción de búsqueda por defecto cuando &apos;@&apos; el operador o palabra clave no se usan [results in increased flickr](*)">
+<!ENTITY silbe.OptGotoShow "Muestra &apos;go to&apos; sugerencia para probables urls">
+<!ENTITY silbe.OptSuggestShow " Mostrar sugerencias para las consultas y URLs">
+<!ENTITY silbe.OptNumSuggest "Máximo número de sugerencias a mostrar">
+<!ENTITY silbe.OptBarStyle " Seleccione un estilo para la lista de sugerencias (*):">
+<!ENTITY silbe.OptNumVisibleResult "Máximo número de resultados visibles">
+<!ENTITY silbe.HideName "Ocultar nombre de motor">
+<!ENTITY silbe.HideIcon "Ocultar iconos de motor">
+<!ENTITY silbe.AutohideEngine "Ocultar automáticamente el motor de búsqueda">
+<!ENTITY silbe.ShowInUrlbar " Mostrar en el motor de búsqueda urlbar">
+<!ENTITY silbe.ffrestart " Requiere que se reinicie Palemoon para aplicar el cambio ">
+<!ENTITY silbe.STYLE.RICH "Enriquecido (Default)">
+<!ENTITY silbe.STYLE.RICHSLIM "Enriquecido &amp; Slim">
+<!ENTITY silbe.STYLE.SIMPLE "Slim">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Palemoon&apos;s estilo por defecto para mostrar las sugerencias .">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Igual a &apos;Rich&apos;, pero usa una pantalla mas delgada y es mas compacta.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Los resultados son mostrados en una simple y rápida lista sin sugerencias.">
+<!ENTITY silbe.prefmsg "Click derecho en el icono del motor de búsqueda para ver preferencias de silbe.">
+<!ENTITY silbe.HideSearchBar "Oculta cuadro de búsqueda (usar si el cuadro de búsqueda no se oculta automáticamente)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage " Administrar motores de búsqueda...">
+<!ENTITY silbe.ShowSuggestions "Mostrar  sugerencias">
+<!ENTITY silbe.Done " Hecho ">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

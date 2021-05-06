@@ -1,0 +1,76 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.window {
+  background-color: white;
+}
+
+
+/*silbe icons in urlbar CSS*/
+
+#silbe-in-urlbar {
+  display: none;
+  visibility: hidden;
+  overflow: hidden !important;
+  padding: 0;
+  margin: 0 3px;
+}
+
+#silbe-defaultEngineName {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  -moz-margin-end: 3px;
+}
+
+#silbe-defaultEngine {
+  height: 16px; !important;
+  width: 16px !important;
+}
+
+#silbe-defaultEngineBox {
+	padding: 0;
+	margin: 0;
+}
+
+#silbe-in-urlbar[addengines="true"] {
+  -moz-box-shadow: 0 0 1em highlight;
+  -moz-border-radius: .25em;
+}
+
+#silbe-in-urlbar[addengines="true"] {
+  -moz-box-shadow: none !important;
+}
+
+#urlbar[pageproxystate="valid"] #silbe-in-urlbar[autohide="yes"] {
+  display: none;
+  visibility: hidden !important;
+}
+
+#silbe-in-urlbar[showinurlbar="yes"] {
+  display: inherit;
+  visibility: visible !important;
+}
+
+#silbe-defaultEngineName[hide="yes"], #silbe-defaultEngine[hide="yes"] {
+  display: none;
+  visibility: hidden !important;
+}
+
+/*Option panel CSS*/
+#editOmnisearchOptionsLabel {
+  font-size: small;
+  font-weight: bold;
+  width: 200px;
+}
+
+.description-checkoption {
+  padding-left: 20px;
+}
+
+#silbe-preferences description {
+  width: 250px;
+}
+
+menuitem.silbe-engine-menuitem[selected="true"] {
+  font-weight: bold;
+}

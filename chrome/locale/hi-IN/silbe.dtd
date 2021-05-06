@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "ओम्निबार वरीयताएँ">
+<!ENTITY silbe.DefaultSearchDesc "सीधे खोज करें">
+<!ENTITY silbe.DefaultSearchDescContext "जब यह ठीक से काम नहीं कर रहा है इसे अक्षम करें">
+<!ENTITY silbe.DisplayOptions "प्रदर्शन के विकल्प">
+<!ENTITY silbe.OptDefaultSearchShow "डिफ़ॉल्ट खोज विकल्प दिखाएँ जब &apos;@&apos; या खोज keyword इस्तेमाल हो">
+<!ENTITY silbe.OptGotoShow "URL के लिए हिंट्स दिखाएँ">
+<!ENTITY silbe.OptSuggestShow "प्रश्नों और URL के लिए सुझाव दिखाएँ">
+<!ENTITY silbe.OptNumSuggest "सुझावों की अधिकतम संख्या">
+<!ENTITY silbe.OptBarStyle "सुझाव सूची के लिए एक शैली चुनें">
+<!ENTITY silbe.OptNumVisibleResult "दृश्य परिणामों की अधिकतम संख्या">
+<!ENTITY silbe.HideName "इंजन नाम ना दिखाएँ">
+<!ENTITY silbe.HideIcon "इंजन आइकन ना दिखाएँ">
+<!ENTITY silbe.AutohideEngine "स्वतः छिपायें खोज इंजन को">
+<!ENTITY silbe.ShowInUrlbar "खोज इंजन को urlbar में दिखाएँ">
+<!ENTITY silbe.ffrestart "परिवर्तन लागू करने के लिए फ़ायरफ़ॉक्स पुनर्प्रारंभ करें">
+<!ENTITY silbe.STYLE.RICH "Rich">
+<!ENTITY silbe.STYLE.RICHSLIM "Rich &amp; Slim">
+<!ENTITY silbe.STYLE.SIMPLE "Slim">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "फायरफाक्स का स्वाभाविक विकल्प">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "हरहरा विकल्प जो ज्यादा सुगठित है">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "सरल और तेज प्रदर्शन">
+<!ENTITY silbe.prefmsg "ओम्निबार वरीयताओं को देखने के लिए urlbar में खोज इंजन आइकन पर राइट क्लिक करें">
+<!ENTITY silbe.HideSearchBar "सर्च बॉक्स को छिपायें (जब सर्च बॉक्स को स्वयं ना छिपाया हो)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage "खोज इंजन प्रबंधन">
+<!ENTITY silbe.ShowSuggestions "सुझाव दिखाएँ">
+<!ENTITY silbe.Done "हो गया">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

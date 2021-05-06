@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Preferências do Silbe">
+<!ENTITY silbe.DefaultSearchDesc "HHabilitar busca com pesquisas sem operadores ou chaves de busca">
+<!ENTITY silbe.DefaultSearchDescContext "(Desabilitar caso outra extensão associada à barra de navegação deixe de funcionar)">
+<!ENTITY silbe.DisplayOptions "Opções de exibição">
+<!ENTITY silbe.OptDefaultSearchShow "Exibir opção de busca padrão quando o operador '@' ou chave não é usada [provoca mais piscamento](*)">
+<!ENTITY silbe.OptGotoShow "Exibir dica 'ir para' em URLs prováveis">
+<!ENTITY silbe.OptSuggestShow "Exibir sugestões para pesquisas e URLs">
+<!ENTITY silbe.OptNumSuggest "Número máximo de sugestões exibidas">
+<!ENTITY silbe.OptBarStyle "Selecione um estilo para a lista de sugestões(*):">
+<!ENTITY silbe.OptNumVisibleResult "Número máximo de resultados visíveis">
+<!ENTITY silbe.HideName "Ocultar nome do mecanismo de busca">
+<!ENTITY silbe.HideIcon "Ocultar ícone do mecanismo de busca">
+<!ENTITY silbe.AutohideEngine "Ocultar automaticamente o mecanismo de busca">
+<!ENTITY silbe.ShowInUrlbar "Exibir mecanismo de busca na barra de navegação">
+<!ENTITY silbe.ffrestart "O Palemoon precisa ser reiniciado para aplicar a alteração">
+<!ENTITY silbe.STYLE.RICH "Rico (padrão)">
+<!ENTITY silbe.STYLE.RICHSLIM "Rico &amp; conciso">
+<!ENTITY silbe.STYLE.SIMPLE "Conciso">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Estilo padrão do Palemoon de exibir sugestões, com destaques.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "O mesmo que 'Rico', só que mais conciso, sendo mais compacto.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Os resultados são exibidos em uma lista bem simples e rápida, sem destaques de busca.">
+<!ENTITY silbe.prefmsg "Clique com o botão direito sobre o ícone do mecanismo de busca na barra de navegação para ver as preferências do Silbe.">
+<!ENTITY silbe.HideSearchBar "Ocultar caixa de pesquisa (usar se não tiver sido oculta manualmente)">
+<!ENTITY silbe.OptNumHistory "Número máximo de resultados no histórico">
+<!ENTITY silbe.SelectSearchOp "Selecionar operador de busca">
+<!--  common  -->
+<!ENTITY silbe.Manage "Gerenciar mecanismos de busca...">
+<!ENTITY silbe.ShowSuggestions "Exibir sugestões">
+<!ENTITY silbe.Done "Pronto">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

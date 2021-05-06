@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Silbe preferences">
+<!ENTITY silbe.DefaultSearchDesc "Enable search for queries without search keyword or operator">
+<!ENTITY silbe.DefaultSearchDescContext "(Disable in case other urlbar related addons don&apos;t work)">
+<!ENTITY silbe.DisplayOptions "Display options">
+<!ENTITY silbe.OptDefaultSearchShow "Show default search option when &apos;@&apos; operator or keyword is not used [results in increased flickr](*)">
+<!ENTITY silbe.OptGotoShow "Show &apos;go to&apos; hint for probable urls">
+<!ENTITY silbe.OptSuggestShow "Show suggestions for queries and URLs">
+<!ENTITY silbe.OptNumSuggest "Maximum number of suggestions shown">
+<!ENTITY silbe.OptBarStyle "Select a style for suggestion list(*):">
+<!ENTITY silbe.OptNumVisibleResult "Maximum number of visible results">
+<!ENTITY silbe.HideName "Hide engine name">
+<!ENTITY silbe.HideIcon "Hide engine icon">
+<!ENTITY silbe.AutohideEngine "Autohide search engine">
+<!ENTITY silbe.ShowInUrlbar "Show search engine in urlbar">
+<!ENTITY silbe.ffrestart "Requires Palemoon to be restarted to apply the change">
+<!ENTITY silbe.STYLE.RICH "Rich (Default)">
+<!ENTITY silbe.STYLE.RICHSLIM "Rich &amp; Slim">
+<!ENTITY silbe.STYLE.SIMPLE "Slim">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Palemoon&apos;s default style to display suggestions, with highlights.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Same as &apos;Rich&apos;, but uses slimmer display and is more compact.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "The results are shown in a very simple and fast list with no search highlights.">
+<!ENTITY silbe.prefmsg "Right-click on the search engine icon in the urlbar to view Silbe preferences.">
+<!ENTITY silbe.HideSearchBar "Hide search box (use it if search box is not hidden manually)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage "Manage Search Engines...">
+<!ENTITY silbe.ShowSuggestions "Show suggestions">
+<!ENTITY silbe.Done "Done">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

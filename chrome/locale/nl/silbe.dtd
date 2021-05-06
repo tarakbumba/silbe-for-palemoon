@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Silbe voorkeuren">
+<!ENTITY silbe.DefaultSearchDesc "Zoekopdracht zonder sleutelwoord of operator inschakelen">
+<!ENTITY silbe.DefaultSearchDescContext "(Schakel dit uit indien andere adresbalkgerelateerde add-ons niet werken)">
+<!ENTITY silbe.DisplayOptions "Weergave-opties">
+<!ENTITY silbe.OptDefaultSearchShow "Standaardzoekoptie weergeven wanneer de ‘@’-operator of sleutelwoord niet wordt gebruikt [resulteert in meer geflikker](*)">
+<!ENTITY silbe.OptGotoShow "‘Bezoeken’-hint weergeven voor waarschijnlijk URL’s">
+<!ENTITY silbe.OptSuggestShow "Suggesties voor zoekopdrachten en URL’s weergeven">
+<!ENTITY silbe.OptNumSuggest "Maximaal aantal weergegeven suggesties">
+<!ENTITY silbe.OptBarStyle "Selecteer een stijl voor de suggestielijst(*):">
+<!ENTITY silbe.OptNumVisibleResult "Maximaal aantal zichtbare resultaten">
+<!ENTITY silbe.HideName "Naam zoekmachine verbergen">
+<!ENTITY silbe.HideIcon "Pictogram zoekmachine verbergen">
+<!ENTITY silbe.AutohideEngine "Zoekmachine automatisch verbergen voor tabbladen met een geldige URL">
+<!ENTITY silbe.ShowInUrlbar "Zoekmachine in adresbalk weergeven">
+<!ENTITY silbe.ffrestart "Een herstart van Palemoon is nodig om deze wijziging door te voeren">
+<!ENTITY silbe.STYLE.RICH "Rijk (Standaard)">
+<!ENTITY silbe.STYLE.RICHSLIM "Rijk &amp; Slank">
+<!ENTITY silbe.STYLE.SIMPLE "Slank">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "De standaardstijl van Palemoon om suggesties weer te geven, met accentuering.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Identiek aan ‘Rijk’, maar met een slankere weergave en compacter.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "De resultaten worden weergegeven in een heel eenvoudige en snelle lijst zonder zoekaccentuering.">
+<!ENTITY silbe.prefmsg "Klik met de rechtermuisknop op het zoekmachinepictogram in de adresbalk om de voorkeursinstellingen van Silbe te bekijken.">
+<!ENTITY silbe.HideSearchBar "Zoekbox verbergen (gebruiken wanneer zoekbox niet handmatig wordt verborgen)">
+<!ENTITY silbe.OptNumHistory "Maximaal aantal geschiedenisresultaten">
+<!ENTITY silbe.SelectSearchOp "Selecteer zoekmachine">
+<!--  common  -->
+<!ENTITY silbe.Manage "Zoekmachines beheren…">
+<!ENTITY silbe.ShowSuggestions "Suggesties weergeven">
+<!ENTITY silbe.Done "Klaar">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

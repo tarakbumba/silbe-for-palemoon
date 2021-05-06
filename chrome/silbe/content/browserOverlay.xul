@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://silbe/locale/silbe.dtd">
+
+
+<?xml-stylesheet href="chrome://global/skin/" type"text/css" ?>
+<?xml-stylesheet href="chrome://global/skin/xul.css" type="text/css"?>
+<?xml-stylesheet href="chrome://silbe/skin/default.css" type="text/css"?>
+<overlay id="wordlistOverlay"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="browserOverlay.js"/>
+  <stringbundleset>
+    <stringbundle id="silbe-strings" src="chrome://silbe/locale/strings.properties" />
+  </stringbundleset>
+
+  <commandset id="mainCommandSet">
+    <command id="cmd_toggleSilbeIcon" oncommand="Silbe.toggleSilbeDisplay();" />
+    <command id="Tools:Search" oncommand="Silbe.webSearch();"/>
+  </commandset>
+  <textbox id="urlbar">
+    <hbox id="silbe-in-urlbar"
+          align="center"
+          insertbefore="urlbar-icons"
+          onclick="Silbe.onButtonClick(event);"
+          context="silbe-context-popup">
+      <label id="silbe-defaultEngineName"/>
+      <vbox id="silbe-defaultEngineBox">
+        <image id="silbe-defaultEngine"/>
+      </vbox>
+    </hbox>
+  </textbox>
+  <popupset id="mainPopupSet">
+    <menupopup id="silbe-engine-menu"
+           onpopupshowing="Silbe.onContextPopupShowing(event);"
+           onclick="Silbe.onContextMenuClick(event)"
+           >
+      <menu id="silbe-osemenu" label="Organized Search Engines" hidden="true"
+            datasources="rdf:organized-internet-search-engines" template="searchbar-template" sortDirection="natural" sortResource="urn:organize-search-engines#Name" />
+      <menuseparator class="engines-separator"/>
+      <menuitem id="silbe-context-menuitem-suggestenabled"
+                label="&silbe.ShowSuggestions;"
+                class="menuitem-iconic suggest-option"
+                />
+      <menuitem id="silbe-context-menuitem-manageengines"
+                label="&silbe.Manage;"
+                class="menuitem-iconic manageengines"
+                oncommand="Silbe.openSearchEngineEditor()"
+                />
+    </menupopup>
+    
+    <menupopup id="silbe-context-popup">
+      <menuitem label="&silbe.PrefsTitle;"
+                class="menuitem-iconic suggest-option"
+                oncommand="window.openDialog('chrome://silbe/content/options.xul','options','chrome,centerscreen,modal');"/>
+    </menupopup>
+    
+  </popupset>
+</overlay>

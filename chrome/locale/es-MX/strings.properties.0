@@ -1,0 +1,8 @@
+extensions.silbe@tarakbumba.com.description=Transforma la barra de localización en Silbe.
+EmptyStringFiller=___
+DefaultSearchCommentFormat=busqueda $1 for $2
+UrlSuggestCommentFormat=sugerido url $1
+PhraseSuggestCommentFormat=busqueda $1 for $2
+TIP.SilbeIcon=Click o Ctrl+(Up/Down/Mouse scroll) para cambiar motor de busqueda.\nClick derecho para ver las preferencias de silbe.
+TIP.Search=Buscador
+ShowInUrlbar=Show Silbe in Urlbar

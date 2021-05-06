@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Preferencias de Silbe">
+<!ENTITY silbe.DefaultSearchDesc "Habilitar la búsqueda de solicitudes sin palabra clave ni operador de búsqueda">
+<!ENTITY silbe.DefaultSearchDescContext "(Deshabilitar en caso de que otro complemento relacionado con barra de direcciones no funcione)">
+<!ENTITY silbe.DisplayOptions "Opciones de visualización">
+<!ENTITY silbe.OptDefaultSearchShow "Mostrar la opción de búsqueda predeterminada cuando no se usa el operador '@' o la palabra clave [mayor parpadeo en los resultados](*)">
+<!ENTITY silbe.OptGotoShow "Mostrar la pista 'ir a' para direcciones probables">
+<!ENTITY silbe.OptSuggestShow "Mostrar sugerencias para consultas y direcciones URL">
+<!ENTITY silbe.OptNumSuggest "Número máximo de sugerencias mostradas">
+<!ENTITY silbe.OptBarStyle "Seleccione un estilo para la lista de sugerencias(*):">
+<!ENTITY silbe.OptNumVisibleResult "Número máximo de resultados visibles">
+<!ENTITY silbe.HideName "Ocultar el nombre del motor de búsqueda">
+<!ENTITY silbe.HideIcon "Ocultar el icono del motor de búsqueda">
+<!ENTITY silbe.AutohideEngine "Ocultar automáticamente el motor de búsqueda">
+<!ENTITY silbe.ShowInUrlbar "Mostrar el motor de búsqueda en la barra de direcciones">
+<!ENTITY silbe.ffrestart "Requiere reiniciar Palemoon para aplicar el cambio">
+<!ENTITY silbe.STYLE.RICH "Detallado (predeterminado)">
+<!ENTITY silbe.STYLE.RICHSLIM "Detallado y compacto">
+<!ENTITY silbe.STYLE.SIMPLE "Compacto">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Estilo predeterminado de Palemoon para mostrar las sugerencias, con resaltado.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Igual que 'Detallado', pero se muestra de manera más compacta.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Los resultados se muestran en una lista muy sencilla y rápida sin resaltar la búsqueda.">
+<!ENTITY silbe.prefmsg "Clic derecho en el icono del motor de búsqueda en la barra de direcciones para ver las preferencias de Silbe.">
+<!ENTITY silbe.HideSearchBar "Ocultar la barra de búsqueda (marcarlo si la caja de búsqueda no se oculta manualmente)">
+<!ENTITY silbe.OptNumHistory "Número máximo de historial de resultados">
+<!ENTITY silbe.SelectSearchOp "Seleccione el operador de búsqueda">
+<!--  common  -->
+<!ENTITY silbe.Manage "Gestionar motores de búsqueda...">
+<!ENTITY silbe.ShowSuggestions "Mostrar sugerencias">
+<!ENTITY silbe.Done "Hecho">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

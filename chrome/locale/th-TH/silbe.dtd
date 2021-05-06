@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "การตั้งค่า Silbe">
+<!ENTITY silbe.DefaultSearchDesc "เปิดการค้นหาเริ่มต้นโดยไม่มีตัวปฏิบัติการเครื่องมือ  &apos;@&apos;">
+<!ENTITY silbe.DefaultSearchDescContext "(ปิดการใช้ในกรณีที่ส่วนขยายแถบ url อื่นๆไม่ทำงาน)">
+<!ENTITY silbe.DisplayOptions "ตัวเลือกการแสดงผล">
+<!ENTITY silbe.OptDefaultSearchShow "แสดงตัวเลือกการค้นหาเริ่มต้นเมื่อไม่ใช้ตัวปฏิบัติการ &apos;@&apos; หรือคำค้น [ผลลัพธ์ใน flickr ที่เพิ่มขึ้น](*)">
+<!ENTITY silbe.OptGotoShow "แสดงคำแนะนำ &apos;ไปยัง&apos; สำหรับ url ที่เป็นไปได้">
+<!ENTITY silbe.OptSuggestShow "แสดงคำแนะนำสำหรับการร้องขอและ URL">
+<!ENTITY silbe.OptNumSuggest "จำวนของคำแนะนำที่แสดงสูงสุด">
+<!ENTITY silbe.OptBarStyle "เลือกรูปแบบสำหับรายการคำแนะนำ(*):">
+<!ENTITY silbe.OptNumVisibleResult "จำนวนผลลัพธ์ที่แสดงสูงสุด">
+<!ENTITY silbe.HideName "ซ่อนชื่อเครื่องมือ">
+<!ENTITY silbe.HideIcon "ซ่อนไอคอนเครื่องมือ">
+<!ENTITY silbe.AutohideEngine "ซ่อนเครื่องมือการค้นหาโดยอัตโนมัติ">
+<!ENTITY silbe.ShowInUrlbar "แสดงเครื่องมือการค้นหาในแถบ URL">
+<!ENTITY silbe.ffrestart "ต้องการให้เริ่ม Palemoon ใหม่เพื่อนำการเปลี่ยนแปลงไปใช้">
+<!ENTITY silbe.STYLE.RICH "อุดมสมบูรณ์ (เริ่มต้น)">
+<!ENTITY silbe.STYLE.RICHSLIM "อุดมสมบูรณ์และเรียว">
+<!ENTITY silbe.STYLE.SIMPLE "เรียว">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "รูปแบบเริ่มต้นของ Palemoon ในการแสดงคำแนะนำ โดยใช้การเน้น">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "เหมือนกับ &apos;อุดมสมบูรณ์&apos; แต่ใช้การแสดงที่เรียวเล็กกว่าและประหยัดที่กว่า">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "ผลลัพธ์จะแสดงในรายการที่รวดเร็วและเรียบง่ายโดยไม่มีการเน้นคำค้น">
+<!ENTITY silbe.prefmsg "คลิกขวาบนไอคอนเครื่องมือการค้นหาในแถบ URL เพื่อแสดงการตั้งค่า Silbe">
+<!ENTITY silbe.HideSearchBar "ซ่อนกล่องการค้นหา (ใช้หากกล่องค้นหาไม่ถูกซ่อนโดยตัวคุณเอง)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage "จัดการเครื่องมือการค้นหา...">
+<!ENTITY silbe.ShowSuggestions "แสดงคำแนะนำ">
+<!ENTITY silbe.Done "เสร็จสิ้น">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

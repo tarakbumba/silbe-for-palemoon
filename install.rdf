@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest"
+               em:type="2"
+               em:id="{f474df3c-13df-420f-bef9-d1a0b456d9bb}"
+               em:version="1.0"
+               em:name="SiLbE-Search in Location Bar Enhanced"
+               em:description="Integrates search bar to the location bar."
+               em:creator="tarakbumba"
+               em:homepageURL="https://github.com/tarakbumba/search-in-locationbar-extended"
+               em:iconURL="chrome://silbe/skin/classic/magnifier_20.png"
+               em:optionsType="1"
+               em:optionsURL="chrome://silbe/content/options.xul">
+    <em:developer>tarakbumba</em:developer>
+    <em:contributor>AAjit (aka ajitk) - Original Developer</em:contributor>
+    <em:contributor>Amit - Original Idea(s) and reviews</em:contributor>
+    <em:contributor>All user who have given contructive feedbacks</em:contributor>
+    <em:contributor>Alexander Seleznev</em:contributor>
+    <em:translator>Sven-Erik Neve (de-DE)</em:translator>
+    <em:translator>myahoo at babelzilla (fr-FR)</em:translator>
+    <em:translator>Ajit K (hi-IN)</em:translator>
+    <em:translator>markh van BabelZilla.org (nl-NL)</em:translator>
+    <em:translator>Marcelo Ghelman (ghelman.net) (pt-BR)</em:translator>
+    <em:translator>banthaz (sv-SE)</em:translator>
+    <em:translator>tarakbumba (tr-TR)</em:translator>
+    <em:translator>yfdyh000 at babelzilla (zh-CN)</em:translator>
+    <em:targetApplication name="Pale Moon">
+      <Description em:id="{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}"
+                   em:minVersion="28.0.0a1"
+                   em:maxVersion="29.*"/>
+    </em:targetApplication>
+  </Description>
+</RDF>

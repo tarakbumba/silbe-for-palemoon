@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Préférences d&apos;Silbe">
+<!ENTITY silbe.DefaultSearchDesc "Activer le moteur de recherche par défaut, sans utiliser « @ » comme opérateur">
+<!ENTITY silbe.DefaultSearchDescContext "(Désactiver dans le cas où d&apos;autres extensions gérant la barre d&apos;adresse ne fonctionnent pas)">
+<!ENTITY silbe.DisplayOptions "Afficher les options">
+<!ENTITY silbe.OptDefaultSearchShow "Afficher l&apos;option de recherche par défaut quand l&apos;opérateur « @ » ou un mot clé ne sont pas utilisés [se fait sous forme d&apos;augmentation flickr] (*)">
+<!ENTITY silbe.OptGotoShow "Afficher l&apos;outil « Aller à » pour les propositions d&apos;URLs">
+<!ENTITY silbe.OptSuggestShow "Afficher des suggestions pour les requêtes et les URLs">
+<!ENTITY silbe.OptNumSuggest "Nombre maximal de suggestions affichées">
+<!ENTITY silbe.OptBarStyle "Choisir un style pour la liste de suggestions (*) :">
+<!ENTITY silbe.OptNumVisibleResult "Nombre maximal de résultats affichés">
+<!ENTITY silbe.HideName "Masquer le nom du moteur">
+<!ENTITY silbe.HideIcon "Masquer l&apos;icône du moteur">
+<!ENTITY silbe.AutohideEngine "Masquer automatiquement le moteur pour les onglets disposant d&apos;une URL valide">
+<!ENTITY silbe.ShowInUrlbar "Afficher le moteur de recherche dans la barre d&apos;adresse">
+<!ENTITY silbe.ffrestart "Palemoon doit être redémarré pour appliquer la modification">
+<!ENTITY silbe.STYLE.RICH "Riche (par défaut)">
+<!ENTITY silbe.STYLE.RICHSLIM "Riche et léger">
+<!ENTITY silbe.STYLE.SIMPLE "Léger">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Style de Palemoon par défaut pour l&apos;affichage des suggestions, avec du texte en gras.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Comme « Riche », mais avec un affichage plus réduit et un ensemble plus compact.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Les résultats sont affichés très simplement et rapidement, sans texte en gras.">
+<!ENTITY silbe.prefmsg "Faire un clic droit sur l&apos;icône du moteur de recherche dans la barre d&apos;adresse pour afficher les préférences d&apos;Silbe.">
+<!ENTITY silbe.HideSearchBar "Masquer la boîte de recherche (à utiliser si elle n&apos;est pas masquée manuellement)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage "Gérer les moteurs de recherche…">
+<!ENTITY silbe.ShowSuggestions "Afficher les suggestions">
+<!ENTITY silbe.Done "Terminé">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

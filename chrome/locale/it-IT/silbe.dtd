@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Preferenze Silbe">
+<!ENTITY silbe.DefaultSearchDesc "Attiva ricerca predefinita senza motore '@' operatore">
+<!ENTITY silbe.DefaultSearchDescContext "(Disattiva in caso altri componenti aggiuntivi relativi alla barra degli indirizzi non funzionino)">
+<!ENTITY silbe.DisplayOptions "Opzioni visualizzazione">
+<!ENTITY silbe.OptDefaultSearchShow "Mostra l'opzione di ricerca predefinita quando non sono utilizzati l'operatore &apos;@&apos; o la parola chiave [risultati flickr aumentati](*)">
+<!ENTITY silbe.OptGotoShow "Mostra suggerimento 'vai a' per indirizzi probabili">
+<!ENTITY silbe.OptSuggestShow "Mostra suggerimenti per interrogazioni e indirizzi">
+<!ENTITY silbe.OptNumSuggest "Numero massimo di suggerimenti visualizzati">
+<!ENTITY silbe.OptBarStyle "Seleziona uno stile per la lista suggerimenti(*):">
+<!ENTITY silbe.OptNumVisibleResult "Numero massimo di risultati visibili">
+<!ENTITY silbe.HideName "Nascondi nome motore">
+<!ENTITY silbe.HideIcon "Nascondi icona motore">
+<!ENTITY silbe.AutohideEngine "Nascondi automaticamente motore di ricerca">
+<!ENTITY silbe.ShowInUrlbar "Visualizza il motore di ricerca nella barra degli indirizzi">
+<!ENTITY silbe.ffrestart "E' richiesto il riavvio di Palemoon per l'applicazione delle modifiche">
+<!ENTITY silbe.STYLE.RICH "Rich (Predefinito)">
+<!ENTITY silbe.STYLE.RICHSLIM "Rich &amp; Slim">
+<!ENTITY silbe.STYLE.SIMPLE "Slim">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Lo stile predefinito di Palemoon di visualizzare i suggerimenti, con evidenziazioni.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Come il &apos;Rich&apos;, ma display più piccolo ed è più compatto.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "I risultati sono mostrati in una semplice e veloce lista senza evidenzazioni di ricerca.">
+<!ENTITY silbe.prefmsg "Clicca col tasto destro sull'icona del motore di ricerca nella barra degli indirizzi per visualizzare le preferenze di Silbe.">
+<!ENTITY silbe.HideSearchBar "Nascondi box ricerca (utilizzalo se il box di ricerca non viene nascosto manualmente)">
+<!ENTITY silbe.OptNumHistory "Massimo numero di risultati nella cronologia">
+<!ENTITY silbe.SelectSearchOp "Seleziona operatore di ricerca">
+<!--  common  -->
+<!ENTITY silbe.Manage "Gestione Motori di Ricerca...">
+<!ENTITY silbe.ShowSuggestions "Mostra suggerimenti">
+<!ENTITY silbe.Done "Fatto">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

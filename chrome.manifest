@@ -1,0 +1,40 @@
+content     silbe             chrome/silbe/content/
+skin        silbe   classic   chrome/skin/classic
+
+locale      silbe     de      chrome/locale/de/
+locale      silbe     de-DE   chrome/locale/de-DE/
+locale      silbe     en-US   chrome/locale/en-US/
+locale      silbe     es      chrome/locale/es/
+locale      silbe     es-ES   chrome/locale/es-ES/
+locale      silbe     es-MX   chrome/locale/es-MX/
+locale      silbe     fr      chrome/locale/fr/
+locale      silbe     fr-FR   chrome/locale/fr-FR/
+locale      silbe     hi-IN   chrome/locale/hi-IN/
+locale      silbe     hu-HU   chrome/locale/hu-HU/
+locale      silbe     it      chrome/locale/it/
+locale      silbe     it-IT   chrome/locale/it-IT/
+locale      silbe     nl      chrome/locale/nl/
+locale      silbe     nl-NL   chrome/locale/nl-NL/
+locale      silbe     pt-BR   chrome/locale/pt-BR/
+locale      silbe     ru      chrome/locale/ru/
+locale      silbe     ru-RU   chrome/locale/ru-RU/
+locale      silbe     sv-SE   chrome/locale/sv-SE/
+locale      silbe     th-TH   chrome/locale/th-TH/
+locale      silbe     tr      chrome/locale/tr/
+locale      silbe     zh-CN   chrome/locale/zh-CN/
+locale      silbe     zh-TW   chrome/locale/zh-TW/
+
+overlay chrome://browser/content/browser.xul chrome://silbe/content/browserOverlay.xul
+style chrome://browser/content/browser.xul chrome://silbe/skin/browser.css
+
+component {629F60A2-7C31-11DD-9566-E35956D89593} components/silbe-search.js
+contract @mozilla.org/autocomplete/search;1?name=silbe-search {629F60A2-7C31-11DD-9566-E35956D89593}
+
+component {AA5CDC32-8148-11DD-99E5-B6AA56D89593} components/silbe-search.js
+contract @mozilla.org/autocomplete/search;1?name=silbe-search-suggestions {AA5CDC32-8148-11DD-99E5-B6AA56D89593}
+
+component {4087d5ad-ab64-4314-8899-fb9ccd7afe41} components/silbe-search.js
+contract @mozilla.org/autocomplete/search;1?name=silbe-allinone {4087d5ad-ab64-4314-8899-fb9ccd7afe41}
+
+component {0cca1b29-1489-4826-ba0c-21fee771afbd} components/silbe-search.js
+contract @tarakbumba.com/silbe/queryparser;1 {0cca1b29-1489-4826-ba0c-21fee771afbd}

@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Silbe inställningar">
+<!ENTITY silbe.DefaultSearchDesc "Aktivera sökning för inmatad text utan nyckelord eller operator">
+<!ENTITY silbe.DefaultSearchDescContext "(Inaktivera ifall andra adressfältsrelaterade tillägg inte fungerar)">
+<!ENTITY silbe.DisplayOptions "Visningsalternativ">
+<!ENTITY silbe.OptDefaultSearchShow "Aktivera sökning för inmatad text utan nyckelord eller operator [resulterar i ökat flimrande](*)">
+<!ENTITY silbe.OptGotoShow "Visa &apos;gå till&apos;-tips för troliga URL:er">
+<!ENTITY silbe.OptSuggestShow "Visa sök- och URL-förlsag">
+<!ENTITY silbe.OptNumSuggest "Maximalt antal sök-/URL-förslag">
+<!ENTITY silbe.OptBarStyle "Välj utseende för adressfältets förslag(*):">
+<!ENTITY silbe.OptNumVisibleResult "Maximalt antal förslag i adressfältet totalt">
+<!ENTITY silbe.HideName "Dölj dess namn">
+<!ENTITY silbe.HideIcon "Dölj dess ikon">
+<!ENTITY silbe.AutohideEngine "Dölj knappen automatiskt">
+<!ENTITY silbe.ShowInUrlbar "Visa en knapp för sökmotorer i adressfältet">
+<!ENTITY silbe.ffrestart "Kräver att Palemoon startas om">
+<!ENTITY silbe.STYLE.RICH "Riklig (Standard)">
+<!ENTITY silbe.STYLE.RICHSLIM "Riklig &amp; Slimmad">
+<!ENTITY silbe.STYLE.SIMPLE "Slimmad">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Palemoon&apos;s standardutseende, med textmarkeringar.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Som &apos;Riklig&apos;, fast med en mer slimmad och kompakt stil.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Adressfältets förslag visas i en väldigt enkel och snabb lista, utan textmarkeringar.">
+<!ENTITY silbe.prefmsg "Högerklicka på knappen för sökmotorer i adressfältet för att visa Silbe inställningar.">
+<!ENTITY silbe.HideSearchBar "Dölj sökfältet (använd detta om du inte döljer den manuellt)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage "Hantera sökmotorer...">
+<!ENTITY silbe.ShowSuggestions "Visa förslag">
+<!ENTITY silbe.Done "Klar">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

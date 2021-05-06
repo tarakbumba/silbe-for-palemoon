@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Silbe 偏好設定">
+<!ENTITY silbe.DefaultSearchDesc "未使用關鍵字或搜尋符號時仍啟用搜尋功能">
+<!ENTITY silbe.DefaultSearchDescContext "（停用以避免影響其他位址列相關套件的功能）">
+<!ENTITY silbe.DisplayOptions "顯示選項">
+<!ENTITY silbe.OptDefaultSearchShow "未使用搜尋符號「@」或關鍵字時也顯示預設的搜尋選項 [可增強 flickr](*)">
+<!ENTITY silbe.OptGotoShow "在可能的網址顯示「前往」提示">
+<!ENTITY silbe.OptSuggestShow "搜尋和網址都顯示建議">
+<!ENTITY silbe.OptNumSuggest "搜尋建議的最大數量">
+<!ENTITY silbe.OptBarStyle "選擇建議清單的顯示樣式(*)：">
+<!ENTITY silbe.OptNumVisibleResult "搜尋結果總數的最大數量">
+<!ENTITY silbe.HideName "隱藏搜尋引擎名稱">
+<!ENTITY silbe.HideIcon "隱藏搜尋引擎圖示">
+<!ENTITY silbe.AutohideEngine "自動隱藏搜尋引擎">
+<!ENTITY silbe.ShowInUrlbar "在位址列顯示搜尋引擎">
+<!ENTITY silbe.ffrestart "需要重新啟動 Palemoon 以套用變更">
+<!ENTITY silbe.STYLE.RICH "完整（預設）">
+<!ENTITY silbe.STYLE.RICHSLIM "簡化">
+<!ENTITY silbe.STYLE.SIMPLE "精簡">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Palemoon 預設的搜尋建議樣式，有高亮度標示">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "類似完整模式，但壓縮成較為簡潔的顯示方式">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "搜尋結果顯示為簡便而快捷的清單，沒有高亮度標示">
+<!ENTITY silbe.prefmsg "右鍵點選位址列的搜尋引擎圖示開啟 Silbe 偏好設定。">
+<!ENTITY silbe.HideSearchBar "隱藏搜尋列（若尚未手動隱藏）">
+<!ENTITY silbe.OptNumHistory "搜尋結果中歷史紀錄的最大數量">
+<!ENTITY silbe.SelectSearchOp "選擇搜尋符號">
+<!--  common  -->
+<!ENTITY silbe.Manage "管理搜尋引擎">
+<!ENTITY silbe.ShowSuggestions "顯示搜尋建議">
+<!ENTITY silbe.Done "完成">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

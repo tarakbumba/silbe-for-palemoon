@@ -1,0 +1,32 @@
+<!-- Options Panel -->
+<!ENTITY silbe.PrefsTitle "Silbe-Einstellungen">
+<!ENTITY silbe.DefaultSearchDesc "Standardsuche ohne den Operator &quot;@&quot; aktivieren">
+<!ENTITY silbe.DefaultSearchDescContext "(Abschalten, falls Adressleisten-Add-ons nicht funktionieren)">
+<!ENTITY silbe.DisplayOptions "Anzeigeeinstellungen">
+<!ENTITY silbe.OptDefaultSearchShow "Standardsucheinstellungen verwenden, wenn weder der &quot;@&quot;-Operator noch ein Schlüsselwort benutzt werden [sorgt für stärkeres Flackern](*)">
+<!ENTITY silbe.OptGotoShow "Zeige &quot;Gehe zu&quot;-Hinweis für wahrscheinliche Adressen">
+<!ENTITY silbe.OptSuggestShow "Zeige Vorschläge für Suchanfragen und Adressen">
+<!ENTITY silbe.OptNumSuggest "Maximal angezeigte Vorschläge">
+<!ENTITY silbe.OptBarStyle "Wählen Sie einen Stil für die Liste der Vorschläge(*):">
+<!ENTITY silbe.OptNumVisibleResult "Maximal angezeigte Ergebnisse">
+<!ENTITY silbe.HideName "Suchmaschinenname verstecken">
+<!ENTITY silbe.HideIcon "Suchmaschinensymbol verstecken">
+<!ENTITY silbe.AutohideEngine "Suchmaschine in Tabs mit gültiger Adresse automatisch verstecken">
+<!ENTITY silbe.ShowInUrlbar "Zeige Suchmaschine in der Adressleiste">
+<!ENTITY silbe.ffrestart "Palemoon neu starten, um Änderungen zu aktivieren.">
+<!ENTITY silbe.STYLE.RICH "Ausführlich (Standard)">
+<!ENTITY silbe.STYLE.RICHSLIM "Ausführlich &amp; schlank">
+<!ENTITY silbe.STYLE.SIMPLE "Schlank">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Palemoon-Standard, um Vorschläge anzuzeigen, inklusive Hervorhebungen.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "Identisch mit &quot;Ausführlich&quot;, jedoch kompakter und mit schlankerer Anzeige.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Die Ergebnisse erscheinen in einer einfachen und schnellen Liste ohne Hervorhebungen.">
+<!ENTITY silbe.prefmsg "Rechtsklicken Sie auf das Suchmaschinensymbol in der Adressleiste, um die Silbe-Einstellungen zu öffnen.">
+<!ENTITY silbe.HideSearchBar "Suchleiste verstecken (verwenden, wenn die Suchleiste nicht manuell versteckt wurde)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!-- common -->
+<!ENTITY silbe.Manage "Suchmaschinen verwalten...">
+<!ENTITY silbe.ShowSuggestions "Vorschläge zeigen">
+<!ENTITY silbe.Done "Fertig">
+<!-- Context Menu -->
+<!-- Autocomplete popup -->

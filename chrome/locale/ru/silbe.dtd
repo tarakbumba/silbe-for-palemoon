@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Настройки Silbe">
+<!ENTITY silbe.DefaultSearchDesc "Разрешить опускать в запросе краткое имя и оператор поиска">
+<!ENTITY silbe.DefaultSearchDescContext "(можно отключить, если другие расширения для строки адреса не работают)">
+<!ENTITY silbe.DisplayOptions "Вид">
+<!ENTITY silbe.OptDefaultSearchShow "Show default search option when &apos;@&apos; operator or keyword is not used [results in increased flickr](*)">
+<!ENTITY silbe.OptGotoShow "Show &apos;go to&apos; hint for probable urls">
+<!ENTITY silbe.OptSuggestShow "Показывать предположения для адресов и поисковых запросов">
+<!ENTITY silbe.OptNumSuggest "Максимальное число предположений">
+<!ENTITY silbe.OptBarStyle "Вид списка предположений (*):">
+<!ENTITY silbe.OptNumVisibleResult "Максимальное число видимых строк">
+<!ENTITY silbe.HideName "Скрыть название">
+<!ENTITY silbe.HideIcon "Скрыть значок">
+<!ENTITY silbe.AutohideEngine "Автоматически скрывать">
+<!ENTITY silbe.ShowInUrlbar "Отображение поискового плагина">
+<!ENTITY silbe.ffrestart "Требуется перезагрузка браузера">
+<!ENTITY silbe.STYLE.RICH "Полный (по умолчанию)">
+<!ENTITY silbe.STYLE.RICHSLIM "Компактный">
+<!ENTITY silbe.STYLE.SIMPLE "Упрощенный">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Используется браузером по умолчанию, есть подсветка поискового запроса">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "То же, что и &apos;Полный&apos;, но всё в одну строку">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Упрощенное представление, подсветка не используется">
+<!ENTITY silbe.prefmsg "Щелкните правой кнопкой для просмотра настроек Silbe">
+<!ENTITY silbe.HideSearchBar "Hide search box (use it if search box is not hidden manually)">
+<!ENTITY silbe.OptNumHistory "Maximum number of history results">
+<!ENTITY silbe.SelectSearchOp "Select search operator">
+<!--  common  -->
+<!ENTITY silbe.Manage "Manage Search Engines...">
+<!ENTITY silbe.ShowSuggestions "Show suggestions">
+<!ENTITY silbe.Done "Done">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

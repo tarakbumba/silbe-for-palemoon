@@ -1,0 +1,32 @@
+<!--  Options Panel  -->
+<!ENTITY silbe.PrefsTitle "Silbe seçenekleri">
+<!ENTITY silbe.DefaultSearchDesc "Arama anahtarı veya operatörü olmaksızın arama sorgusu yap">
+<!ENTITY silbe.DefaultSearchDescContext "(Adres çubuğu ile ilgili diğer eklentiler çalışmazsa devre dışı bırakın)">
+<!ENTITY silbe.DisplayOptions "Görüntüleme seçenekleri">
+<!ENTITY silbe.OptDefaultSearchShow "&apos;@&apos; operatörü veya anahtarı kullanılmadığında öntanımlı arama seçeneğini göster.[titremede artışa yol açar](*)">
+<!ENTITY silbe.OptGotoShow "Muhtemel bağlantılar için &apos;git&apos; ipucunu göster">
+<!ENTITY silbe.OptSuggestShow "Sorgular ve URL bağlantıları için öneriler göster">
+<!ENTITY silbe.OptNumSuggest "Gösterilen en fazla öneri sayısı">
+<!ENTITY silbe.OptBarStyle "Öneri listesi için bir biçim seçin (*):">
+<!ENTITY silbe.OptNumVisibleResult "En fazla görülebilir sonuç sayısı">
+<!ENTITY silbe.HideName "Motor adını sakla">
+<!ENTITY silbe.HideIcon "Motor simgesini sakla">
+<!ENTITY silbe.AutohideEngine "Arama motorunu kendiliğinden gizle">
+<!ENTITY silbe.ShowInUrlbar "Arama motorunu adres çubuğunda göster">
+<!ENTITY silbe.ffrestart "Değişikliklerin etkili olması için Pale Moon'un yeniden başlatılması gerekir">
+<!ENTITY silbe.STYLE.RICH "Zengin (Varsayılan">
+<!ENTITY silbe.STYLE.RICHSLIM "Zengin &amp; İnce">
+<!ENTITY silbe.STYLE.SIMPLE "İnce">
+<!ENTITY silbe.LONG.DESC.STYLE.RICH "Pale Moon&apos;un önerileri vurgulama yaparak öntanımlı gösterme biçimi.">
+<!ENTITY silbe.LONG.DESC.STYLE.RICHSLIM "&apos;Zengin&apos; ile aynı; ancak daha ince görünüm kullanır ve daha yoğundur.">
+<!ENTITY silbe.LONG.DESC.STYLE.SIMPLE "Sonuçlar arama vurguları olmadan çok basit ve hızlı bir liste içinde gösterilir..">
+<!ENTITY silbe.prefmsg "Silbe seçeneklerini görüntülemek için arama motoru simgesine sağ tıklayın.">
+<!ENTITY silbe.HideSearchBar "Arama kutusunu gizle. (Bunu arama kutusu elle gitlenmemişse kullanın)">
+<!ENTITY silbe.OptNumHistory "En fazla geçmiş sonucu sayısı">
+<!ENTITY silbe.SelectSearchOp "Arama operatörü seçin">
+<!--  common  -->
+<!ENTITY silbe.Manage "Arama Motorlarını Yönet...">
+<!ENTITY silbe.ShowSuggestions "Önerileri göster">
+<!ENTITY silbe.Done "Tamam">
+<!--  Context Menu  -->
+<!--  Autocomplete popup  -->

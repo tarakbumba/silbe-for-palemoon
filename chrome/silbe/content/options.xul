@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://silbe/skin/options.css" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://silbe/locale/silbe.dtd">
+
+<prefwindow id="silbe-prefs"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            onload="Options.init();"
+						title="&silbe.PrefsTitle;"
+						buttons="accept,cancel"
+						ondialogcancel="Options.commitChanges = false;"
+            onunload="Options.done();">
+
+  <script type="application/x-javascript" src="options.js" />
+	<stringbundle id="silbe-strings" src="chrome://silbe/locale/strings.properties" />
+
+	<prefpane id="mainPane" label="" flex="1">
+		<preferences>
+			<preference id="extensions.silbe.enabledefaultsearch"
+									name="extensions.silbe.enabledefaultsearch"     type="bool" />
+			<preference id="extensions.silbe.showdefaultsearch"
+									name="extensions.silbe.showdefaultsearch"   		type="bool" />
+			<preference id="browser.search.suggest.enabled"
+									name="browser.search.suggest.enabled"     				type="bool" />
+			<preference id="extensions.silbe.numresults"
+									name="extensions.silbe.numresults"       				type="int" />
+			<preference id="extensions.silbe.numsuggestions"
+									name="extensions.silbe.numsuggestions"  				type="int" />
+			<preference id="extensions.silbe.numhistory"
+									name="extensions.silbe.numhistory"  				    type="int" />
+			<preference id="extensions.silbe.popupstyle"
+									name="extensions.silbe.popupstyle" 							type="string" />
+			<preference id="extensions.silbe.hideengineicon"
+									name="extensions.silbe.hideengineicon"  				type="bool" />
+			<preference id="extensions.silbe.hideenginename"
+									name="extensions.silbe.hideenginename"  				type="bool" />
+			<preference id="extensions.silbe.hidesearchbar"
+									name="extensions.silbe.hidesearchbar"  					type="bool" />
+			<preference id="extensions.silbe.autohideinurlbar"
+									name="extensions.silbe.autohideinurlbar"  			type="bool" />
+			<preference id="extensions.silbe.showinurlbar"
+									name="extensions.silbe.showinurlbar"  					type="bool" />
+			<preference id="extensions.silbe.operator"
+									name="extensions.silbe.operator"  					    type="string" />
+		</preferences>
+		<checkbox label="&silbe.DefaultSearchDesc;"
+							preference="extensions.silbe.enabledefaultsearch" />
+		<groupbox flex="1">
+			<caption>
+				<label id="groupSearchDisplay" value="&silbe.DisplayOptions;"/>
+			</caption>
+			<vbox>
+				<checkbox label="&silbe.OptSuggestShow;"
+									preference="browser.search.suggest.enabled" />
+				<hbox>
+					<textbox type="number" preference="extensions.silbe.numsuggestions"
+									 maxlength="4" size="4" min="1" max="20"/>
+					<description>&silbe.OptNumSuggest;</description>
+				</hbox>
+				<hbox>
+					<textbox type="number" preference="extensions.silbe.numhistory"
+									 maxlength="4" size="4" min="1" max="50"/>
+					<description>&silbe.OptNumHistory;</description>
+				</hbox>
+				<hbox>
+					<textbox type="number" preference="extensions.silbe.numresults"
+									 maxlength="4" size="4" min="1" max="50"/>
+					<description>&silbe.OptNumVisibleResult;</description>
+				</hbox>
+				<hbox>
+					<menulist preference="extensions.silbe.operator">
+						<menupopup>
+							<menuitem label="@" value="@"/>
+							<menuitem label="?" value="?"/>
+							<menuitem label="/" value="/"/>
+							<menuitem label="\" value="\"/>
+							<menuitem label="!" value="!"/>
+							<menuitem label="`" value="`"/>
+						</menupopup>
+					</menulist>
+					<description>&silbe.SelectSearchOp;</description>
+				</hbox>
+				<label value="&silbe.OptBarStyle;" group="silbeSearchDisplay" />
+				<radiogroup orient="horizontal"
+										preference="extensions.silbe.popupstyle">
+					<radio label="&silbe.STYLE.RICH;" value="RICH" 
+								 tooltiptext="&silbe.LONG.DESC.STYLE.RICH;"/>
+					<radio label="&silbe.STYLE.RICHSLIM;" value="RICHSLIM"
+								 tooltiptext="&silbe.LONG.DESC.STYLE.RICHSLIM;"/>
+					<radio label="&silbe.STYLE.SIMPLE;" value="SIMPLE"
+								 tooltiptext="&silbe.LONG.DESC.STYLE.SIMPLE;"/>
+				</radiogroup>
+			</vbox>
+		</groupbox>
+		<groupbox>
+			<caption>
+				<checkbox id="showInUrlbar" label="&silbe.ShowInUrlbar;"
+									preference="extensions.silbe.showinurlbar"
+									onsyncfrompreference="Options.updateDependents('showInUrlbar');" />
+			</caption>
+			<hbox>
+				<checkbox label="&silbe.HideName;" preference="extensions.silbe.hideenginename" dependson="showInUrlbar"/>
+				<checkbox label="&silbe.HideIcon;" preference="extensions.silbe.hideengineicon" dependson="showInUrlbar"/>
+				<checkbox label="&silbe.AutohideEngine;" preference="extensions.silbe.autohideinurlbar" dependson="showInUrlbar"/>
+			</hbox>
+		</groupbox>
+		<checkbox label="&silbe.HideSearchBar;"
+							preference="extensions.silbe.hidesearchbar" />
+		<label>* &silbe.ffrestart;</label>
+		<label>-</label><!-- ? -->
+	</prefpane>
+</prefwindow>

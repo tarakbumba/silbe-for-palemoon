@@ -1,0 +1,33 @@
+.autocomplete-richlistitem[type="silbe-search"] .ac-url-text{
+    color:#000088;
+}
+
+.autocomplete-richlistitem[type="silbe-suggestion-phrase"] .ac-url-text{
+    color:#000088;
+}
+
+.autocomplete-richlistitem[type="silbe-suggestion-url"] .ac-url-text{
+    color:#008800;
+}
+
+.autocomplete-richlistitem[type="silbe-filepath"] .ac-url-text{
+    color:#008800;
+}
+
+.autocomplete-richlistitem .ac-url-text{
+}
+
+/*Binding stuff*/
+#PopupAutoCompleteRichResult.silbe-style-slim .autocomplete-richlistitem {
+  -moz-binding: url("chrome://silbe/content/bindings.xml#autocomplete-richlistitem");
+  -moz-box-orient: horizontal;
+}
+
+#PopupAutoCompleteRichResult {
+  -moz-binding: url("chrome://silbe/content/bindings.xml#urlbar-rich-result-popup");
+}
+
+.om-hidden {
+    visibility: hidden;
+    display: none !important;
+}
