@@ -10,7 +10,7 @@
                em:name="SiLbE-Search in Location Bar Enhanced"
                em:description="Integrates search bar to the location bar."
                em:creator="tarakbumba"
-               em:homepageURL="https://github.com/tarakbumba/search-in-locationbar-extended"
+               em:homepageURL="https://github.com/tarakbumba/silbe-for-palemoon"
                em:iconURL="chrome://silbe/skin/classic/magnifier_20.png"
                em:optionsType="1"
                em:optionsURL="chrome://silbe/content/options.xul">
